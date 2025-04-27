@@ -1,0 +1,111 @@
+
+@media screen and (max-width: 700px) {
+    .navbox {   
+        flex-direction: column;
+    }}
+
+* {
+        box-sizing: border-box;
+    }
+
+body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.header{
+    text-align: center;
+    background:rgb(150, 208, 217);
+    color: white;
+    width: 100vw;
+    height: 94vh;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+/* navigation */
+nav {
+    position: -webkit-sticky; 
+    position:sticky;
+    top:0;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbox {
+    display: flex;
+    background-color:rgb(47, 144, 158);
+    /* justify-content: space-evenly; */
+    
+    }
+
+.navbox a{
+    padding: 20px;
+    text-decoration:none;
+    text-align: center;
+    flex: 1;
+    color: #ddd;
+    
+}
+
+.navbox a:hover {
+    background-color: #f5f8a3;
+    color: rgb(135, 126, 1);
+    }
+
+/* main*/
+.main {  
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+    padding: 50px;
+    font-size: 1.3em;
+    line-height: 2em;
+    }
+
+.sub-header{
+    font-size: 2.7em;
+    padding-top: 80px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(207, 167, 4);
+    margin: 30px;
+}
+
+#name{
+    align-content: center;
+    padding-top: 100px;
+    font-size: 6em;
+    font-weight: 50;
+}
+
+#deco {
+    font-size: 1em;
+}
+
+
+
+
+.image{
+    
+    text-align: center;
+}
+
+#mockup,#finalproduct{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 20;
+}
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: rgb(150, 208, 217);
+    color: aliceblue;
+    margin:0%;
+    }
